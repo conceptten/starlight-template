@@ -1,0 +1,44 @@
+{
+  "name": "starlight-template",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "prettier --check . '!**/*.mdx' && eslint",
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.3.3",
+    "@astrojs/solid-js": "^3.0.2",
+    "@astrojs/starlight": "^0.15.0",
+    "@astrojs/starlight-tailwind": "^2.0.1",
+    "@concept10/starlight": "git+https://gitlab.com/conceptten/starlight.git#v1.0.1",
+    "astro": "^4.0.1",
+    "sharp": "^0.32.5",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@astrojs/tailwind": "^5.0.3",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-astro": "^0.31.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "prettier": "^3.1.1",
+    "prettier-plugin-astro": "^0.12.2",
+    "tailwindcss": "^3.3.6",
+    "husky": "^8.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@concept10/starlight/eslint",
+      "plugin:astro/recommended",
+      "prettier"
+    ]
+  },
+  "prettier": "@concept10/starlight/prettier"
+}
