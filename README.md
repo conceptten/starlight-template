@@ -3,7 +3,9 @@
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
 ```
-degit conceptten/starlight-template
+npx degit conceptten/starlight-template
+cd my-project-name
+git init
 ```
 
 ## 🚀 Project Structure

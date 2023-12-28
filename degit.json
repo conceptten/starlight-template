@@ -1,6 +1,6 @@
 [
   {
     "action": "remove",
-    "files": ["SETUP.md", "LICENSE", "degit.json"]
+    "files": ["SETUP.md", "LICENSE"]
   }
 ]
