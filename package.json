@@ -17,7 +17,7 @@
     "@astrojs/solid-js": "^3.0.2",
     "@astrojs/starlight": "^0.15.0",
     "@astrojs/starlight-tailwind": "^2.0.1",
-    "@concept10/starlight": "git+https://gitlab.com/conceptten/starlight.git#v1.0.1",
+    "@concept10/starlight": "git+https://github.com/conceptten/starlight.git#v1.0.1",
     "astro": "^4.0.1",
     "sharp": "^0.32.5",
     "typescript": "^5.3.3"
