@@ -45,6 +45,6 @@ jobs:
 
       - name: Create docs archive
         run: |
-          mv docs/dist ./${{ github.event.repository.name }}
+          mv dist ./${{ github.event.repository.name }}
           tar -czf ${{ github.event.repository.name }}.tar.gz \
             "./${{ github.event.repository.name }}"
