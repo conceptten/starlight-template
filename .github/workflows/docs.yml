@@ -1,0 +1,20 @@
+---
+name: Docs
+on: # yamllint disable-line rule:truthy
+  push:
+    tags:
+      - v*
+    branches:
+      - main
+      - dev
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  docs:
+    uses: conceptten/starlight/.github/workflows/docs.yml@main
+    secrets:
+      SCP_HOST: '${{ secrets.SCP_HOST }}'
+      SCP_USER: '${{ secrets.SCP_USER }}'
+      SCP_PASS: '${{ secrets.SCP_PASS }}'
